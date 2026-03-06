@@ -31,10 +31,10 @@ This phase focuses on getting a minimum viable product in users' hands quickly. 
 **Priority:** P0 (blocking)
 
 **Tasks:**
-- [ ] Initialize Node.js project with Express/Fastify
-- [ ] Set up environment configuration (.env, config files)
-- [ ] Install core dependencies (openai, helmet, cors, morgan, dotenv)
-- [ ] Create folder structure:
+- [x] Initialize Node.js project with Express/Fastify
+- [x] Set up environment configuration (.env, config files)
+- [x] Install core dependencies (openai, helmet, cors, morgan, dotenv)
+- [x] Create folder structure:
   ```
   src/
   ├── routes/
@@ -53,9 +53,9 @@ This phase focuses on getting a minimum viable product in users' hands quickly. 
   ├── app.ts
   └── server.ts
   ```
-- [ ] Create basic HTTP server with health check endpoint
-- [ ] Set up logging (Morgan)
-- [ ] Configure CORS and helmet security headers
+- [x] Create basic HTTP server with health check endpoint
+- [x] Set up logging (Morgan)
+- [x] Configure CORS and helmet security headers
 
 **Deliverable:** Running server on localhost:3000, `/health` returns 200 OK
 
@@ -66,16 +66,16 @@ This phase focuses on getting a minimum viable product in users' hands quickly. 
 **Priority:** P0 (blocking)
 
 **Tasks:**
-- [ ] Create LLM service wrapper around OpenAI API
-- [ ] Implement error handling for API timeouts/failures
-- [ ] Create prompt templates for each feature:
+- [x] Create LLM service wrapper around OpenAI API
+- [x] Implement error handling for API timeouts/failures
+- [x] Create prompt templates for each feature:
   - Rules lookup prompt template
   - Creature stat block prompt template
   - NPC generation prompt template
   - Magic item prompt template
-- [ ] Implement response parsing/formatting functions
-- [ ] Add retry logic (exponential backoff) for API failures
-- [ ] Set up cost tracking/logging for API calls
+- [x] Implement response parsing/formatting functions
+- [x] Add retry logic (exponential backoff) for API failures
+- [x] Set up cost tracking/logging for API calls
 
 **Code Template:**
 ```typescript
@@ -108,11 +108,11 @@ export { callLLM };
 **Priority:** P0 (blocking)
 
 **Tasks:**
-- [ ] Implement rate limiting middleware (100 requests/5 minutes per IP)
-- [ ] Add input validation for all endpoints
+- [x] Implement rate limiting middleware (100 requests/5 minutes per IP)
+- [x] Add input validation for all endpoints
 - [ ] Implement HTTPS redirect (even in dev)
-- [ ] Add request logging with timestamps
-- [ ] Set up error response standardization (all errors follow same format)
+- [x] Add request logging with timestamps
+- [x] Set up error response standardization (all errors follow same format)
 
 **Deliverable:** Rate limiter returns 429 when limit exceeded, all endpoints validate input
 
