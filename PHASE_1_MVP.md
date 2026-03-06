@@ -110,7 +110,7 @@ export { callLLM };
 **Tasks:**
 - [x] Implement rate limiting middleware (100 requests/5 minutes per IP)
 - [x] Add input validation for all endpoints
-- [ ] Implement HTTPS redirect (even in dev)
+- [x] Implement HTTPS redirect (even in dev)
 - [x] Add request logging with timestamps
 - [x] Set up error response standardization (all errors follow same format)
 
@@ -125,9 +125,9 @@ export { callLLM };
 **Priority:** P0 (blocking)
 
 **Tasks:**
-- [ ] Initialize React 18+ project (via Vite or Create React App)
-- [ ] Install core dependencies (tailwind, shadcn/ui, axios, zustand, react-router)
-- [ ] Set up folder structure:
+- [x] Initialize React 18+ project (via Vite or Create React App)
+- [x] Install core dependencies (tailwind, shadcn/ui, axios, zustand, react-router)
+- [x] Set up folder structure:
   ```
   src/
   ├── components/
@@ -147,10 +147,10 @@ export { callLLM };
   ├── App.tsx
   └── main.tsx
   ```
-- [ ] Configure Tailwind CSS
-- [ ] Set up shadcn/ui with Button, Card, Input components
-- [ ] Configure API client (axios instance with error handling)
-- [ ] Set up Zustand store for session state
+- [x] Configure Tailwind CSS
+- [x] Set up shadcn/ui with Button, Card, Input components
+- [x] Configure API client (axios instance with error handling)
+- [x] Set up Zustand store for session state
 
 **Deliverable:** React app runs on localhost:5173, renders empty dashboard
 
@@ -161,14 +161,14 @@ export { callLLM };
 **Priority:** P1
 
 **Tasks:**
-- [ ] Set up React Router v6
-- [ ] Create routes:
+- [x] Set up React Router v6
+- [x] Create routes:
   - `/` - Dashboard
   - `/rules` - Rules Lookup
   - `/creatures` - Creature Search
   - `/npcs` - NPC Generator
   - `/items` - Magic Item Generator
-- [ ] Implement back button navigation
+- [x] Implement back button navigation
 - [ ] Create mobile-friendly navigation menu
 
 **Deliverable:** Can navigate between all feature pages, back button works

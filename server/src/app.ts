@@ -5,6 +5,7 @@ import morgan from 'morgan';
 import config from './config';
 import corsConfig from './middleware/corsConfig';
 import rateLimiter from './middleware/rateLimiter';
+import { httpsRedirect } from './middleware/httpsRedirect';
 import { errorHandler, notFoundHandler } from './middleware/errorHandler';
 
 import rulesRouter from './routes/rules';
@@ -13,6 +14,11 @@ import npcsRouter from './routes/npcs';
 import itemsRouter from './routes/items';
 
 const app = express();
+
+// ---------------------------------------------------------------------------
+// HTTPS redirect (production only)
+// ---------------------------------------------------------------------------
+app.use(httpsRedirect);
 
 // ---------------------------------------------------------------------------
 // Security & parsing middleware
