@@ -184,15 +184,15 @@ export { callLLM };
 **Priority:** P0 (core feature)
 
 **Tasks:**
-- [ ] Create POST `/api/rules/search` endpoint
-- [ ] Implement request validation:
+- [x] Create POST `/api/rules/search` endpoint
+- [x] Implement request validation:
   - `query` (string, required, max 500 chars)
   - `version` (enum: "5e" | "2014", default "5e")
   - `maxTokens` (number, default 500, max 1000)
-- [ ] Create system prompt for GPT-4 focused on D&D rules
-- [ ] Implement response parsing (extract answer, generate follow-up questions)
-- [ ] Add request logging
-- [ ] Test with sample queries
+- [x] Create system prompt for GPT-4 focused on D&D rules
+- [x] Implement response parsing (extract answer, generate follow-up questions)
+- [x] Add request logging
+- [x] Test with sample queries
 
 **System Prompt Template:**
 ```
