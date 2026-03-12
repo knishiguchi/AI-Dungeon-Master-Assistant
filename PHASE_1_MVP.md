@@ -282,11 +282,11 @@ Always end with 2 follow-up questions the DM might ask.
 **Priority:** P0 (core feature)
 
 **Tasks:**
-- [ ] Create POST `/api/npcs/generate` endpoint
-- [ ] Implement request validation:
+- [x] Create POST `/api/npcs/generate` endpoint
+- [x] Implement request validation:
   - `generationType`: "random" (for Phase 1)
   - `includeVoiceNotes`: boolean (default true)
-- [ ] Create detailed NPC generation prompt:
+- [x] Create detailed NPC generation prompt:
   - Name (should be memorable and fantasy-appropriate)
   - Race/appearance (2-3 sentences, visual details)
   - Personality (2-3 defining traits)
@@ -296,9 +296,9 @@ Always end with 2 follow-up questions the DM might ask.
   - Voice notes (how to roleplay them)
   - Profession/role (implied by appearance/goals)
   
-- [ ] Implement response parsing to extract all 8 fields
-- [ ] Validate output structure before returning
-- [ ] Add retry logic if parsing fails
+- [x] Implement response parsing to extract all 8 fields
+- [x] Validate output structure before returning
+- [x] Add retry logic if parsing fails
 
 **System Prompt:**
 ```
@@ -331,13 +331,13 @@ Be creative. Make characters that will stick with players.
 **Priority:** P0 (core feature)
 
 **Tasks:**
-- [ ] Create NPCGenerator component
-- [ ] Implement big red "Generate NPC" button (one-click)
-- [ ] Show loading state while generating
-- [ ] Display NPC in formatted card with all 8 fields
-- [ ] Implement "Generate Another" button
-- [ ] Add copy-to-clipboard for full NPC
-- [ ] Add individual field copy buttons
+- [x] Create NPCGenerator component
+- [x] Implement big red "Generate NPC" button (one-click)
+- [x] Show loading state while generating
+- [x] Display NPC in formatted card with all 8 fields
+- [x] Implement "Generate Another" button
+- [x] Add copy-to-clipboard for full NPC
+- [x] Add individual field copy buttons
 
 **UI Layout:**
 ```
