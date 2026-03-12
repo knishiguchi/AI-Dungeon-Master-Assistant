@@ -16,14 +16,14 @@ export const rulesLookup = {
 Guidelines:
 - Provide a clear, concise answer in 2-3 paragraphs maximum.
 - Focus on practical application, not flavor text or lore.
-- Reference the source material (e.g., "Player's Handbook, Chapter 9").
+- Reference the source material with book name, chapter, and page number when possible (e.g., "Player's Handbook, Chapter 9, p. 195").
 - If the question is ambiguous, state what you are answering.
 - Always end your response with exactly 2 follow-up questions the DM might ask next.
 
 Return your response as JSON with this exact schema:
 {
   "answer": "Your answer text here.",
-  "source": "Primary source reference (e.g., Player's Handbook, Chapter 9)",
+  "source": "Primary source reference (e.g., Player's Handbook, Chapter 9, p. 195)",
   "followUpQuestions": ["Follow-up question 1", "Follow-up question 2"]
 }`,
 

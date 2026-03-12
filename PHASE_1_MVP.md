@@ -228,16 +228,16 @@ Always end with 2 follow-up questions the DM might ask.
 **Priority:** P0 (core feature)
 
 **Tasks:**
-- [ ] Create RulesLookup component with:
+- [x] Create RulesLookup component with:
   - Text input field for query
   - D&D version selector (5e / 2014)
   - Search button (disabled while loading)
   - Loading state with spinner
   - Error state with retry button
-- [ ] Implement API call and response handling
-- [ ] Display result in ResultCard component (reusable)
-- [ ] Implement copy-to-clipboard button
-- [ ] Add "Ask Follow-Up" button that refills input with follow-up question
+- [x] Implement API call and response handling
+- [x] Display result in ResultCard component (reusable)
+- [x] Implement copy-to-clipboard button
+- [x] Add "Ask Follow-Up" button that refills input with follow-up question
 
 **UI Layout:**
 ```
@@ -262,12 +262,12 @@ Always end with 2 follow-up questions the DM might ask.
 **Priority:** P1
 
 **Tasks:**
-- [ ] Create reusable ResultCard component
-- [ ] Format results with proper spacing and typography
-- [ ] Implement copy-to-clipboard functionality
-- [ ] Add timestamp and source attribution
-- [ ] Show follow-up questions as clickable buttons
-- [ ] Implement mobile scroll handling
+- [x] Create reusable ResultCard component
+- [x] Format results with proper spacing and typography
+- [x] Implement copy-to-clipboard functionality
+- [x] Add timestamp and source attribution
+- [x] Show follow-up questions as clickable buttons
+- [x] Implement mobile scroll handling
 
 **Deliverable:** ResultCard displays cleanly on mobile and desktop
 
